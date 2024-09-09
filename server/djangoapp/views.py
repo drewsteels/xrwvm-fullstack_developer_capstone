@@ -7,7 +7,8 @@ from django.shortcuts import get_object_or_404, render, redirect
 from django.contrib.auth import logout
 from django.contrib import messages
 from datetime import datetime
-from .models import CarMake, CarModelfrom .restapis import get_request, analyze_review_sentiments, post_review
+from .models import CarMake, CarModel 
+from .restapis import get_request, analyze_review_sentiments, post_review
 
 
 from django.http import JsonResponse
